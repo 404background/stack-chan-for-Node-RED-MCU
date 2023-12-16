@@ -6,5 +6,5 @@ module.exports = function(RED) {
             node.send(msg);
         });
     }
-    RED.nodes.registerType("stack_chan", StackChan);
+    RED.nodes.registerType("stack-chan", StackChan);
 }

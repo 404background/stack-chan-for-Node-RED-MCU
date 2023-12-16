@@ -1,0 +1,12 @@
+{
+	"name": "stack-chan",
+	"version": "1.0.0",
+	"description": "example",
+	"license": "UNLICENSED",
+	"node-red" : {
+		"nodes": {
+			"mcu_servo": "stack-chan.js"
+		}
+	}
+}
+ 

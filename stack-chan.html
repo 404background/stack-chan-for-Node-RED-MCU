@@ -1,26 +1,27 @@
 <script type="text/javascript">
-	RED.nodes.registerType('stack_chan',{
+	RED.nodes.registerType('stack-chan',{
 		category: 'MCU',
 		color: '#000000',
 		defaults: {
-			name: { value:"stack_chan" },
+			name: { value:"ｽﾀｯｸﾁｬﾝ" },
 		},
 		inputs:1,
 		outputs:1,
 		icon: "img\stack-chan_face.png",
 		label: function() {
-			return this.name || "Servo";
+            this.style.color = '#ffffff';
+			return this.name || "ｽﾀｯｸﾁｬﾝ";
 		},
 	});
 </script>
 
-<script type="text/html" data-template-name="stack_chan">
+<script type="text/html" data-template-name="stack-chan">
 	<div class="form-row">
 		<label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
-		<input type="text" id="node-input-name" placeholder="stack_chan">
+		<input type="text" id="node-input-name" placeholder="stack-chan">
 	</div>
 </script>
 
-<script type="text/markdown" data-help-name="stack_chan">
+<script type="text/markdown" data-help-name="stack-chan">
 
 </script>
