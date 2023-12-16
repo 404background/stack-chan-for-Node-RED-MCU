@@ -1,0 +1,10 @@
+{
+	"modules": {
+		"*": "./stack-chan"
+	},
+	"resources":{
+		"*": [
+			"./img/stack-chan_face"
+		]
+	}
+}
