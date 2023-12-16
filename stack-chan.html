@@ -7,10 +7,11 @@
 		},
 		inputs:1,
 		outputs:1,
-		icon: "img\stack-chan_icon.svg",
+		icon: "stack-chan_icon.svg",
 		label: function() {
-            this.style.color = '#ffffff';
-			return this.name || "ｽﾀｯｸﾁｬﾝ";
+            this.name.style.color = '#ffffff';
+            let default_name = "ｽﾀｯｸﾁｬﾝ";
+			return this.name || default_name;
 		},
 	});
 </script>
